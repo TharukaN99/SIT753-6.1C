@@ -10,7 +10,7 @@ pipeline{
         stage('Unit and Integration Tests'){
             steps{
                 echo "run unit tests to ensure the code functions as expected"
-                echo "Tools : JUnit for unit tests and Selenium for integration test"
+                echo "Tools : JUnit for unit tests and Selenium for integration tests"
             }
             post {
                 success {
